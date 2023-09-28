@@ -1,7 +1,7 @@
 """
 To find the color that is most worn throughout the week, 
-we can iterate through the days and colors and keep a count of each color. 
-Then, we can determine which color has the highest count.
+i iterate through the days and colors and keep a count of each color. 
+Then, i determine which color that has the highest count.
 """
 
 colors_by_day = {
