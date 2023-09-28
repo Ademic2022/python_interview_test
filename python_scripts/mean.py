@@ -1,3 +1,4 @@
+"""import colection module"""
 from collections import Counter
 
 """Define the colors worn on each day"""
