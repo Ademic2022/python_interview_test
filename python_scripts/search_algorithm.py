@@ -6,10 +6,9 @@ def recursive_search(arr, target, index=0):
     """If the current element is equal to the target, return its index."""
     if arr[index] == target:
         return index
-
+    
     """Recursive case: Call the function with the next index."""
     return recursive_search(arr, target, index + 1)
-
 
 my_list = [2, 4, 6, 8, 10, 12]
 target_value = 8
