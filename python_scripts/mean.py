@@ -12,10 +12,8 @@ colors_by_day = {
 
 """Create a list of all colors using list comprehension"""
 all_colors = [color.strip() for colors in colors_by_day.values() for color in colors.split(",")]
-
 """ Count occurrences of each color """
 color_counts = Counter(all_colors)
-print(color_counts)
 
 """
 Calculate the mean color we can implement the mean formula
